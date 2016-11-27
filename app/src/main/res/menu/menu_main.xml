@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_meipai1"
+        android:icon="@drawable/ju"
+        android:orderInCategory="100"
+        android:title="@string/menu_search"
+        app:showAsAction="ifRoom" />
+
+    <!--<item-->
+        <!--android:id="@+id/item_meipai2"-->
+        <!--android:icon="@drawable/hua"-->
+        <!--android:title="@string/menu_notifications"-->
+        <!--app:showAsAction="ifRoom" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/item_meipai3"-->
+        <!--android:title="@string/item_01"-->
+        <!--app:showAsAction="never" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/item_meipai4"-->
+        <!--android:title="@string/item_02"-->
+        <!--app:showAsAction="never" />-->
+</menu>

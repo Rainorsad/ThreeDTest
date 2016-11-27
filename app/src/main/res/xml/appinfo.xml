@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    minWidth：桌面控件的最小宽度
+    minHeight：桌面控件的最小高度
+    updatePeriodMillis：更新频率
+    initialLayout：初始时显示的布局-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="200dp"
+    android:minHeight="50dp"
+    android:initialLayout="@layout/widget_layout"
+    android:previewImage="@drawable/headbackground"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen|keyguard"
+>
+</appwidget-provider>
